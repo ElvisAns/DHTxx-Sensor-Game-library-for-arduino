@@ -1,5 +1,7 @@
 // Example testing sketch for various DHT humidity/temperature sensors
 // In this example we implement a simply thermostat with hysteresis triggering
+// We use a transistor an a relay to interface the microcontroller with a fan circuitry
+//Add a resistor( between 100 - 330 Ohms to attack the transistor'base by  5V for the board)
 // Written by Elvis Ansima, public domain
 
 #include "DHT.h"
